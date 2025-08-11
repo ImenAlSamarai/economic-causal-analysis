@@ -59,6 +59,20 @@ cd examples
 - Systemic risk assessment
 - Peak effect analysis
 
+### 4. Visual Demo (`visual_demo.py`) 🎨 **NEW!**
+**Purpose**: Comprehensive visualization showcase with professional charts and dashboards
+- **Causal network visualization**: Interactive network diagrams with colored nodes
+- **Shock propagation plots**: Time series with uncertainty bands
+- **Mechanism comparison**: Side-by-side analysis of all mechanism types
+- **Executive dashboard**: Comprehensive results summary with multiple chart types
+
+**Visualizations included:**
+- Network structure with variable type color-coding
+- Multi-variable time series with uncertainty
+- Peak effects bar charts and cumulative impact pie charts
+- Before/after comparisons and convergence analysis
+- Professional publication-ready charts
+
 ## 🎯 Running Individual Examples
 
 ### Basic Demo
@@ -78,6 +92,12 @@ python examples/federal_reserve_analysis.py
 python examples/shock_propagation_demo.py
 ```
 **Expected output:** Time-series analysis of economic shock propagation
+
+### Visual Demo 🎨
+```bash
+python examples/visual_demo.py
+```
+**Expected output:** Comprehensive visualization suite with 4 different chart types and professional dashboard
 
 ## 📈 Understanding the Output
 

@@ -28,6 +28,14 @@ from .shock_propagation import (
     add_shock_propagation_capabilities
 )
 
+from .visualization import (
+    plot_causal_network,
+    plot_shock_propagation,
+    plot_mechanism_comparison,
+    create_results_dashboard,
+    quick_visualize
+)
+
 __all__ = [
     # Task 1.1 - Existing exports
     "EconomicVariable",
@@ -46,5 +54,11 @@ __all__ = [
     "ShockEvent",
     "PropagationResults",
     "ShockPropagationEngine",
-    "add_shock_propagation_capabilities"
+    "add_shock_propagation_capabilities",
+    # Visualization exports
+    "plot_causal_network",
+    "plot_shock_propagation",
+    "plot_mechanism_comparison",
+    "create_results_dashboard",
+    "quick_visualize"
 ]

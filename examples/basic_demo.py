@@ -23,7 +23,7 @@ import time
 from typing import Dict, Any
 
 # Add src to path for imports
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 
 from src.architecture import (
     # Task 1.1 - Core system (DO NOT MODIFY)

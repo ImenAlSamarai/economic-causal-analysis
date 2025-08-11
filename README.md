@@ -16,6 +16,7 @@ This system represents a breakthrough in economic modeling by combining:
 - **Non-Linear Mechanisms**: Four sophisticated transformation types for realistic economic behavior
 - **Shock Propagation**: Advanced counterfactual reasoning and scenario analysis
 - **Convergence Analysis**: Stability checking and dampening for realistic simulations
+- **Professional Visualizations**: Comprehensive charts, dashboards, and network diagrams
 
 ## 🏗️ Architecture Overview
 
@@ -26,7 +27,8 @@ src/
     ├── __init__.py
     ├── causal_economic_graph.py    # Core DAG implementation (408 lines)
     ├── causal_mechanisms.py        # Non-linear mechanisms (560 lines)
-    └── shock_propagation.py        # Counterfactual analysis (503 lines)
+    ├── shock_propagation.py        # Counterfactual analysis (503 lines)
+    └── visualization.py            # Professional charts and dashboards (400+ lines)
 ```
 
 ### Core Components
@@ -238,6 +240,10 @@ cumulative_gdp_impact = results.calculate_cumulative_impact("GDP_growth")
 
 print(f"Peak GDP impact: {peak_effects['GDP_growth']}")
 print(f"Convergence achieved: {results.convergence_achieved}")
+
+# Visualize results
+from src.architecture import create_results_dashboard
+create_results_dashboard(results, graph)
 ```
 
 ## ✅ Validation & Testing
