@@ -4,17 +4,17 @@
 [![NetworkX](https://img.shields.io/badge/networkx-3.0+-green.svg)](https://networkx.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A sophisticated system for modeling and analyzing causal relationships between economic variables using directed acyclic graphs (DAGs) with advanced shock propagation capabilities and mechanism-based transformations.
+A system for modeling and analyzing causal relationships between economic variables using directed acyclic graphs (DAGs) with shock propagation capabilities and mechanism-based transformations.
 
-## 🎯 Core Innovation
+## 🎯 Description
 
-This system represents a breakthrough in economic modeling by combining:
+This system combines:
 
 - **Causal Graph Theory**: Economic relationships as DAGs preventing circular causality
 - **Uncertainty Quantification**: Full propagation of uncertainty through causal chains  
 - **Temporal Dynamics**: Multi-period lags and realistic economic timing
-- **Non-Linear Mechanisms**: Four sophisticated transformation types for realistic economic behavior
-- **Shock Propagation**: Advanced counterfactual reasoning and scenario analysis
+- **Non-Linear Mechanisms**: Four  transformation types for realistic economic behavior
+- **Shock Propagation**: Counterfactual reasoning and scenario analysis
 - **Convergence Analysis**: Stability checking and dampening for realistic simulations
 
 ## 🏗️ Architecture Overview
@@ -32,7 +32,7 @@ src/
 ### Core Components
 
 #### 1. **EconomicVariable** 
-Represents economic variables with comprehensive metadata:
+Represents economic variables with the following metadata:
 - **Variable Types**: EXOGENOUS, ENDOGENOUS, POLICY, MARKET, INDICATOR
 - **Uncertainty Quantification**: Standard deviations and confidence intervals
 - **Bounds Enforcement**: Economic feasibility constraints
@@ -90,7 +90,7 @@ output = strength * (max_effect * input) / (half_saturation + |input|)
 
 ### 2. Shock Propagation Engine
 
-Advanced counterfactual analysis through:
+Counterfactual analysis through:
 
 #### **Multi-Period Dynamics**
 - **Temporal Lags**: Realistic timing between causes and effects
@@ -208,7 +208,7 @@ ancestors = graph.get_causal_ancestors("GDP_growth")
 print(f"Variables affecting GDP: {ancestors}")
 ```
 
-### Advanced Shock Propagation
+### Shock Propagation
 
 ```python
 from src.architecture import ShockEvent, add_shock_propagation_capabilities
