@@ -1,0 +1,15 @@
+# Core dependencies
+networkx>=3.0
+numpy>=1.21.0
+pandas>=1.3.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=22.0.0
+isort>=5.0.0
+mypy>=1.0.0
+
+# Optional visualization (for future extensions)
+matplotlib>=3.5.0
+plotly>=5.0.0
