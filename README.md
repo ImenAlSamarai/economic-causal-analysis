@@ -487,16 +487,5 @@ pytest --cov=src tests/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🏆 Acknowledgments
-
-Built with rigorous software engineering practices and economic theory foundations, combining:
-- **Graph theory** for causal structure representation
-- **Economic modeling** for realistic relationship dynamics  
-- **Computational efficiency** for practical policy analysis
-- **Uncertainty quantification** for robust decision-making
-
----
-
-**Ready for immediate deployment in economic research, policy analysis, and decision support systems.**
 
 *For questions, issues, or contributions, please refer to the project's issue tracker and documentation.*
